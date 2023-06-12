@@ -24,5 +24,6 @@ class EmployeeService {
     return axios.delete(EMPLOYEE_API_BASE_URL + "/" + id);
   }
 }
-const employeeService = new employeeService();
-export default EmployeeService();
+let employeeService;
+employeeService = new employeeService();
+//export default EmployeeService();
