@@ -26,4 +26,4 @@ class EmployeeService {
 }
 let employeeService;
 employeeService = new employeeService();
-//export default EmployeeService();
+export default EmployeeService();
