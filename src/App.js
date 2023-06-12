@@ -1,9 +1,9 @@
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
+import EmployeeFormComponent from "./components/EmployeeFormComponent";
 import FooterComponent from "./components/FooterComponent";
 import HeaderComponent from "./components/HeaderComponent";
 import ListEmployeeComponent from "./components/ListEmployeeComponent";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import EmployeeFormComponent from "./components/EmployeeFormComponent";
 import ViewEmployeeComponent from "./components/ViewEmployeeComponent";
 
 function App() {
