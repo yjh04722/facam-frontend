@@ -1,6 +1,5 @@
 import axios from "axios";
 
-
 const EMPLOYEE_API_BASE_URL = "https://api.mirmir0608.com/api/v1/employees";
 
 class EmployeeService {
@@ -25,5 +24,5 @@ class EmployeeService {
     return axios.delete(EMPLOYEE_API_BASE_URL + "/" + id);
   }
 }
-const EmployeeService = () => "EmployeeService";
-export default EmployeeService;
+const employeeService = new employeeService();
+export default EmployeeService();
