@@ -24,6 +24,6 @@ class EmployeeService {
     return axios.delete(EMPLOYEE_API_BASE_URL + "/" + id);
   }
 }
-let employeeService;
-employeeService = new employeeService();
-export default EmployeeService();
+
+const EmployeeService = new EmployeeService(); //eslint-disable-line no-unused-vars
+export default EmployeeService;
