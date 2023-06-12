@@ -25,4 +25,5 @@ class EmployeeService {
   }
 }
 
-export default new EmployeeService();
+const em = new EmployeeService(); //eslint-disable-line no-unused-vars
+export default em;
